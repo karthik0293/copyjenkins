@@ -1,0 +1,156 @@
+Started by user [8mha:////4BiUV0vIyqSPglHjXXkUzf2sYznWgw75KSgbu7XeYKOIAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL97MSikozMbACIpkGuwgAAAA==[0mkarthik
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/calculator
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/calculator/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthik0293/calculator.git # timeout=10
+Fetching upstream changes from https://github.com/karthik0293/calculator.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/karthik0293/calculator.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 79068356ad40ddb9770733831f275ae781825626 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 79068356ad40ddb9770733831f275ae781825626 # timeout=10
+Commit message: "Update README & Cleaning after merging"
+ > git rev-list --no-walk 79068356ad40ddb9770733831f275ae781825626 # timeout=10
+[calculator] $ /bin/sh -xe /tmp/jenkins16543008279855491435.sh
++ cd /var/lib/jenkins/workspace/calculator
++ mvn package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Calculator 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.10/maven-surefire-plugin-2.10.pom
+2/11 KB   3/11 KB   5/11 KB   6/11 KB   7/11 KB   9/11 KB   10/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.10/maven-surefire-plugin-2.10.pom (11 KB at 8.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.10/surefire-2.10.pom
+2/12 KB    3/12 KB   5/12 KB   6/12 KB   7/12 KB   9/12 KB   10/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.10/surefire-2.10.pom (12 KB at 42.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/20/maven-parent-20.pom
+2/25 KB    3/25 KB   5/25 KB   6/25 KB   7/25 KB   9/25 KB   10/25 KB   11/25 KB   13/25 KB   14/25 KB   15/25 KB   17/25 KB   18/25 KB   19/25 KB   21/25 KB   22/25 KB   23/25 KB   25/25 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/20/maven-parent-20.pom (25 KB at 80.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.10/maven-surefire-plugin-2.10.jar
+2/30 KB    3/30 KB   5/30 KB   6/30 KB   7/30 KB   9/30 KB   10/30 KB   11/30 KB   13/30 KB   14/30 KB   15/30 KB   17/30 KB   18/30 KB   19/30 KB   21/30 KB   22/30 KB   23/30 KB   25/30 KB   26/30 KB   27/30 KB   29/30 KB   30/30 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.10/maven-surefire-plugin-2.10.jar (30 KB at 92.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.pom
+2/6 KB     3/6 KB   5/6 KB   6/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.pom (6 KB at 21.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/21/maven-plugins-21.pom
+2/13 KB   3/13 KB   5/13 KB   6/13 KB   7/13 KB   9/13 KB   10/13 KB   11/13 KB   13/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/21/maven-plugins-21.pom (13 KB at 43.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.jar
+2/32 KB    3/32 KB   5/32 KB   6/32 KB   7/32 KB   9/32 KB   10/32 KB   11/32 KB   13/32 KB   14/32 KB   15/32 KB   17/32 KB   18/32 KB   19/32 KB   21/32 KB   22/32 KB   23/32 KB   25/32 KB   26/32 KB   27/32 KB   29/32 KB   30/32 KB   31/32 KB   32/32 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.3.2/maven-jar-plugin-2.3.2.jar (32 KB at 103.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+Downloading: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+Downloading: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar
+2/171 KB   3/171 KB   5/171 KB   6/171 KB   7/171 KB   9/171 KB   10/171 KB   11/171 KB   13/171 KB   14/171 KB   15/171 KB   17/171 KB   18/171 KB   19/171 KB   21/171 KB   22/171 KB   23/171 KB   25/171 KB   26/171 KB   27/171 KB   29/171 KB   30/171 KB   31/171 KB   33/171 KB   34/171 KB   35/171 KB   37/171 KB   38/171 KB   39/171 KB   41/171 KB   42/171 KB   43/171 KB   45/171 KB   46/171 KB   47/171 KB   49/171 KB   50/171 KB   51/171 KB   53/171 KB   54/171 KB   55/171 KB   57/171 KB   58/171 KB   59/171 KB   61/171 KB   62/171 KB   63/171 KB   65/171 KB   66/171 KB   67/171 KB   69/171 KB   70/171 KB   71/171 KB   73/171 KB   74/171 KB   75/171 KB   77/171 KB   78/171 KB   79/171 KB   81/171 KB   82/171 KB   84/171 KB   85/171 KB   86/171 KB   88/171 KB   89/171 KB   90/171 KB   92/171 KB   93/171 KB   94/171 KB   96/171 KB   97/171 KB   98/171 KB   100/171 KB   101/171 KB   102/171 KB   104/171 KB   105/171 KB   106/171 KB   108/171 KB   109/171 KB   110/171 KB   112/171 KB   113/171 KB   114/171 KB   116/171 KB   117/171 KB   118/171 KB   120/171 KB   121/171 KB   122/171 KB   124/171 KB   125/171 KB   126/171 KB   128/171 KB   129/171 KB   130/171 KB   132/171 KB   133/171 KB   134/171 KB   136/171 KB   137/171 KB   138/171 KB   140/171 KB   141/171 KB   142/171 KB   144/171 KB   145/171 KB   146/171 KB   148/171 KB   149/171 KB   150/171 KB   152/171 KB   153/171 KB   154/171 KB   156/171 KB   157/171 KB   2/8 KB   157/171 KB   2/3 KB   3/8 KB   157/171 KB   2/3 KB   5/8 KB   157/171 KB   2/3 KB   6/8 KB   157/171 KB   2/3 KB   7/8 KB   157/171 KB   2/3 KB   8/8 KB   157/171 KB   2/3 KB   2/8 KB   157/171 KB   3/3 KB   8/8 KB   157/171 KB   3/3 KB   8/8 KB   158/171 KB   3/3 KB   8/8 KB   160/171 KB   3/3 KB   8/8 KB   2/98 KB   160/171 KB   3/3 KB   8/8 KB   3/98 KB   160/171 KB   3/3 KB   8/8 KB   5/98 KB   160/171 KB   3/3 KB   8/8 KB   6/98 KB   160/171 KB   3/3 KB   8/8 KB   7/98 KB   160/171 KB   3/3 KB   8/8 KB   9/98 KB   160/171 KB   3/3 KB   8/8 KB   10/98 KB   160/171 KB   3/3 KB   8/8 KB   11/98 KB   160/171 KB   3/3 KB   8/8 KB   13/98 KB   160/171 KB   3/3 KB   8/8 KB   13/98 KB   161/171 KB   3/3 KB   8/8 KB   13/98 KB   163/171 KB   3/3 KB   8/8 KB   14/98 KB   163/171 KB   3/3 KB   8/8 KB   15/98 KB   163/171 KB   3/3 KB   8/8 KB   17/98 KB   163/171 KB   3/3 KB   8/8 KB   17/98 KB   164/171 KB   3/3 KB   8/8 KB   17/98 KB   165/171 KB   3/3 KB   8/8 KB   17/98 KB   167/171 KB   3/3 KB   8/8 KB   17/98 KB   168/171 KB   3/3 KB   8/8 KB   18/98 KB   169/171 KB   3/3 KB   8/8 KB   18/98 KB   168/171 KB   3/3 KB   8/8 KB   19/98 KB   169/171 KB   3/3 KB   8/8 KB   19/98 KB   171/171 KB   3/3 KB   8/8 KB   19/98 KB   171/171 KB   3/3 KB   8/8 KB   21/98 KB   171/171 KB   3/3 KB   8/8 KB   22/98 KB   171/171 KB   3/3 KB   8/8 KB   23/98 KB   171/171 KB   3/3 KB   8/8 KB   25/98 KB   171/171 KB   3/3 KB   8/8 KB   26/98 KB   171/171 KB   3/3 KB   8/8 KB   27/98 KB   171/171 KB   3/3 KB   8/8 KB   29/98 KB   171/171 KB   3/3 KB   8/8 KB   30/98 KB   171/171 KB   3/3 KB   8/8 KB   31/98 KB   171/171 KB                                             33/98 KB   171/171 KB                                                               Downloaded: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar (3 KB at 4.5 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (8 KB at 14.4 KB/sec)
+34/98 KB   171/171 KB   35/98 KB   171/171 KB   37/98 KB   171/171 KB   38/98 KB   171/171 KB   39/98 KB   171/171 KB   41/98 KB   171/171 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar (171 KB at 320.5 KB/sec)
+42/98 KB                43/98 KB   45/98 KB   46/98 KB   47/98 KB   49/98 KB   50/98 KB   51/98 KB   53/98 KB   54/98 KB   55/98 KB   57/98 KB   58/98 KB   59/98 KB   61/98 KB   62/98 KB   63/98 KB   65/98 KB   66/98 KB   67/98 KB   69/98 KB   70/98 KB   71/98 KB   73/98 KB   74/98 KB   75/98 KB   77/98 KB   78/98 KB   79/98 KB   81/98 KB   82/98 KB   84/98 KB   85/98 KB   86/98 KB   88/98 KB   89/98 KB   90/98 KB   92/98 KB   93/98 KB   94/98 KB   96/98 KB   97/98 KB   98/98 KB              Downloaded: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar (98 KB at 126.9 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Calculator ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/calculator/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ Calculator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Calculator ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/calculator/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ Calculator ---
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/calculator/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Calculator ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
+2/2 KB     2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom (2 KB at 5.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
+2/19 KB   3/19 KB   5/19 KB   6/19 KB   7/19 KB   9/19 KB   10/19 KB   11/19 KB   13/19 KB   14/19 KB   15/19 KB   17/19 KB   18/19 KB   19/19 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom (19 KB at 71.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom
+2/24 KB    3/24 KB   5/24 KB   6/24 KB   7/24 KB   9/24 KB   10/24 KB   11/24 KB   13/24 KB   14/24 KB   15/24 KB   17/24 KB   18/24 KB   19/24 KB   21/24 KB   22/24 KB   23/24 KB   24/24 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom (24 KB at 89.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+2/5 KB     3/5 KB   5/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom (5 KB at 17.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.pom
+2/3 KB   3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.pom (3 KB at 11.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.pom
+2/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.pom (3 KB at 8.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.10/maven-surefire-common-2.10.pom
+2/4 KB   3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.10/maven-surefire-common-2.10.pom (4 KB at 15.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+2/4 KB   3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom (4 KB at 15.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+2/9 KB   3/9 KB   5/9 KB   6/9 KB   7/9 KB   9/9 KB   9/9 KB            Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (9 KB at 31.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+2/9 KB   3/9 KB   5/9 KB   6/9 KB   7/9 KB   9/9 KB   9/9 KB            Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (9 KB at 32.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
+2/2 KB   2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom (2 KB at 6.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
+2/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom (3 KB at 10.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
+2/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom (3 KB at 7.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
+2/4 KB   3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom (4 KB at 12.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
+2/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom (3 KB at 7.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
+3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom (3 KB at 10.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom (2 KB at 7.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom (2 KB at 7.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
+4/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom (8 KB at 30.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom (2 KB at 7.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.pom (2 KB at 7.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.9/maven-reporting-2.0.9.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.9/maven-reporting-2.0.9.pom (2 KB at 5.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom (2 KB at 6.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
+3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom (3 KB at 8.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom (2 KB at 4.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.pom
+4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.pom (4 KB at 13.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom
+4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom (4 KB at 14.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/12/maven-shared-components-12.pom
+4/10 KB   8/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/12/maven-shared-components-12.pom (10 KB at 35.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/13/maven-parent-13.pom
+4/23 KB    8/23 KB   12/23 KB   16/23 KB   20/23 KB   23/23 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/13/maven-parent-13.pom (23 KB at 83.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom (13 KB at 49.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.pom (2 KB at 4.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.10/maven-surefire-common-2.10.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.jar
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.jar
+2/60 KB   3/60 KB   5/60 KB   6/60 KB   7/60 KB   2/31 KB   7/60 KB   4/34 KB   2/31 KB   7/60 KB   8/34 KB   3/31 KB   9/60 KB   12/34 KB   3/31 KB   9/60 KB   16/34 KB   3/31 KB   9/60 KB   4/34 KB   3/31 KB   9/60 KB   16/34 KB   5/31 KB   9/60 KB   4/34 KB   2/31 KB   9/60 KB   16/34 KB   5/31 KB   10/60 KB   16/34 KB   5/31 KB   11/60 KB   16/34 KB   5/31 KB   13/60 KB   16/34 KB   6/31 KB   13/60 KB   16/34 KB   7/31 KB   13/60 KB   20/34 KB   7/31 KB   13/60 KB   24/34 KB   7/31 KB   13/60 KB   28/34 KB   7/31 KB   13/60 KB   32/34 KB   7/31 KB   13/60 KB   34/34 KB   7/31 KB   13/60 KB   34/34 KB   7/31 KB   14/60 KB   34/34 KB   7/31 KB   15/60 KB   34/34 KB   7/31 KB   17/60 KB   34/34 KB   9/31 KB   17/60 KB   34/34 KB   10/31 KB   17/60 KB   34/34 KB   11/31 KB   17/60 KB   34/34 KB   13/31 KB   17/60 KB   34/34 KB   13/31 KB   18/60 KB   34/34 KB   13/31 KB   19/60 KB   34/34 KB   14/31 KB   19/60 KB   34/34 KB   15/31 KB   19/60 KB   34/34 KB   17/31 KB   19/60 KB   34/34 KB   17/31 KB   21/60 KB   34/34 KB   17/31 KB   22/60 KB   34/34 KB   18/31 KB   22/60 KB   34/34 KB   19/31 KB   22/60 KB   34/34 KB   19/31 KB   23/60 KB   34/34 KB   19/31 KB   25/60 KB   34/34 KB   21/31 KB   25/60 KB   34/34 KB   22/31 KB   25/60 KB   34/34 KB   22/31 KB   26/60 KB   34/34 KB   22/31 KB   27/60 KB   34/34 KB   23/31 KB   27/60 KB   34/34 KB   25/31 KB   27/60 KB   34/34 KB   25/31 KB   29/60 KB   34/34 KB   25/31 KB   30/60 KB   34/34 KB   26/31 KB   30/60 KB   34/34 KB   27/31 KB   30/60 KB   34/34 KB   27/31 KB   31/60 KB   34/34 KB   27/31 KB   33/60 KB   34/34 KB   29/31 KB   33/60 KB   34/34 KB   30/31 KB   33/60 KB   34/34 KB   30/31 KB   34/60 KB   34/34 KB   31/31 KB   34/60 KB   34/34 KB   31/31 KB   35/60 KB   34/34 KB   31/31 KB   37/60 KB   34/34 KB   31/31 KB   38/60 KB   34/34 KB   31/31 KB   39/60 KB   34/34 KB   31/31 KB   41/60 KB   34/34 KB   31/31 KB   42/60 KB   34/34 KB   31/31 KB   43/60 KB   34/34 KB   31/31 KB   45/60 KB   34/34 KB   31/31 KB   46/60 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.jar (34 KB at 121.5 KB/sec)
+31/31 KB   47/60 KB              31/31 KB   49/60 KB   31/31 KB   50/60 KB   31/31 KB   51/60 KB   31/31 KB   53/60 KB   31/31 KB   54/60 KB   31/31 KB   55/60 KB   31/31 KB   57/60 KB   31/31 KB   58/60 KB   31/31 KB   59/60 KB   31/31 KB   60/60 KB                         Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar (31 KB at 99.1 KB/sec)
+                      Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.10/maven-surefire-common-2.10.jar (60 KB at 145.0 KB/sec)
+2/220 KB              3/220 KB   5/220 KB   6/220 KB   7/220 KB   9/220 KB   10/220 KB   11/220 KB   13/220 KB   14/220 KB   15/220 KB   17/220 KB   18/220 KB   19/220 KB   21/220 KB   22/220 KB   23/220 KB   25/220 KB   26/220 KB   27/220 KB   29/220 KB   30/220 KB   31/220 KB   33/220 KB   33/220 KB   2/10 KB   33/220 KB   3/10 KB   33/220 KB   5/10 KB   33/220 KB   6/10 KB   33/220 KB   7/10 KB   33/220 KB   9/10 KB   33/220 KB   10/10 KB   33/220 KB   10/10 KB   34/220 KB   10/10 KB   35/220 KB   10/10 KB   37/220 KB   10/10 KB   38/220 KB   10/10 KB   39/220 KB   10/10 KB   41/220 KB   10/10 KB   42/220 KB   10/10 KB   43/220 KB   10/10 KB   45/220 KB   10/10 KB   46/220 KB   10/10 KB   47/220 KB   10/10 KB   49/220 KB   10/10 KB   50/220 KB   10/10 KB   51/220 KB   10/10 KB   53/220 KB   10/10 KB   54/220 KB   10/10 KB   55/220 KB   10/10 KB   57/220 KB   10/10 KB   58/220 KB   10/10 KB   59/220 KB   10/10 KB   61/220 KB   10/10 KB   62/220 KB   10/10 KB   63/220 KB   10/10 KB   65/220 KB   10/10 KB   66/220 KB   10/10 KB   67/220 KB   10/10 KB   69/220 KB   10/10 KB   70/220 KB   10/10 KB   71/220 KB   10/10 KB   73/220 KB   10/10 KB   74/220 KB   10/10 KB   75/220 KB   10/10 KB   77/220 KB   10/10 KB   78/220 KB   10/10 KB   79/220 KB   10/10 KB   81/220 KB   10/10 KB   82/220 KB   10/10 KB   84/220 KB   10/10 KB   85/220 KB   10/10 KB   86/220 KB   10/10 KB   88/220 KB   10/10 KB   89/220 KB   10/10 KB   90/220 KB   10/10 KB   92/220 KB   10/10 KB   93/220 KB   10/10 KB   94/220 KB   10/10 KB   96/220 KB   10/10 KB   97/220 KB   10/10 KB   98/220 KB   10/10 KB   100/220 KB   10/10 KB   101/220 KB   10/10 KB   102/220 KB   10/10 KB   104/220 KB   10/10 KB   105/220 KB   10/10 KB   106/220 KB   10/10 KB   108/220 KB   10/10 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.jar (10 KB at 13.0 KB/sec)
+109/220 KB              110/220 KB   112/220 KB   113/220 KB   114/220 KB   116/220 KB   117/220 KB   118/220 KB   120/220 KB   121/220 KB   122/220 KB   124/220 KB   125/220 KB   126/220 KB   128/220 KB   129/220 KB   130/220 KB   132/220 KB   133/220 KB   134/220 KB   136/220 KB   137/220 KB   138/220 KB   140/220 KB   141/220 KB   142/220 KB   144/220 KB   145/220 KB   146/220 KB   148/220 KB   149/220 KB   150/220 KB   152/220 KB   153/220 KB   154/220 KB   156/220 KB   157/220 KB   158/220 KB   160/220 KB   161/220 KB   163/220 KB   164/220 KB   165/220 KB   167/220 KB   168/220 KB   169/220 KB   171/220 KB   172/220 KB   173/220 KB   175/220 KB   176/220 KB   177/220 KB   179/220 KB   180/220 KB   181/220 KB   183/220 KB   184/220 KB   185/220 KB   187/220 KB   188/220 KB   189/220 KB   191/220 KB   192/220 KB   193/220 KB   195/220 KB   196/220 KB   197/220 KB   199/220 KB   200/220 KB   201/220 KB   203/220 KB   204/220 KB   205/220 KB   207/220 KB   208/220 KB   209/220 KB   211/220 KB   212/220 KB   213/220 KB   215/220 KB   216/220 KB   217/220 KB   219/220 KB   220/220 KB                Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.jar (220 KB at 202.4 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.276s
+[INFO] Finished at: Sun Jul 18 09:12:11 UTC 2021
+[INFO] Final Memory: 12M/31M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.10:test (default-test) on project Calculator: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.10:test failed: Plugin org.apache.maven.plugins:maven-surefire-plugin:2.10 or one of its dependencies could not be resolved: Could not transfer artifact org.apache.maven.surefire:surefire-api:jar:2.10 from/to central (https://repo.maven.apache.org/maven2): Connection reset -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,23 @@
+Started by user [8mha:////4BiUV0vIyqSPglHjXXkUzf2sYznWgw75KSgbu7XeYKOIAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL97MSikozMbACIpkGuwgAAAA==[0mkarthik
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthik0293/C-test.git # timeout=10
+Fetching upstream changes from https://github.com/karthik0293/C-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/karthik0293/C-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 03c396399b5881b6c1462d8c7e00bc49ddcd6315 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 03c396399b5881b6c1462d8c7e00bc49ddcd6315 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 03c396399b5881b6c1462d8c7e00bc49ddcd6315 # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins15011202687658920903.sh
++ cd /var/lib/jenkins/workspace/test
++ make
+make: `karthik.exe' is up to date.
+Finished: SUCCESS

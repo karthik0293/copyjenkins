@@ -1,0 +1,94 @@
+Started by user [8mha:////4BiUV0vIyqSPglHjXXkUzf2sYznWgw75KSgbu7XeYKOIAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL97MSikozMbACIpkGuwgAAAA==[0mkarthik
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/calculator
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/calculator/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthik0293/calculator.git # timeout=10
+Fetching upstream changes from https://github.com/karthik0293/calculator.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/karthik0293/calculator.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 79068356ad40ddb9770733831f275ae781825626 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 79068356ad40ddb9770733831f275ae781825626 # timeout=10
+Commit message: "Update README & Cleaning after merging"
+ > git rev-list --no-walk 79068356ad40ddb9770733831f275ae781825626 # timeout=10
+[calculator] $ /bin/sh -xe /tmp/jenkins3529462400427610787.sh
++ cd /var/lib/jenkins/workspace/calculator
++ mvn deploy
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Calculator 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+2/6 KB   3/6 KB   5/6 KB   6/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (6 KB at 4.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2/13 KB   3/13 KB   5/13 KB   6/13 KB   7/13 KB   9/13 KB   10/13 KB   11/13 KB   13/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 KB at 43.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+2/26 KB    3/26 KB   5/26 KB   6/26 KB   7/26 KB   9/26 KB   10/26 KB   11/26 KB   13/26 KB   14/26 KB   15/26 KB   17/26 KB   18/26 KB   19/26 KB   21/26 KB   22/26 KB   23/26 KB   25/26 KB   26/26 KB   26/26 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 KB at 82.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+2/15 KB    3/15 KB   5/15 KB   6/15 KB   7/15 KB   9/15 KB   10/15 KB   11/15 KB   13/15 KB   14/15 KB   15/15 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 KB at 50.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2/27 KB    3/27 KB   5/27 KB   6/27 KB   7/27 KB   9/27 KB   10/27 KB   11/27 KB   13/27 KB   14/27 KB   15/27 KB   17/27 KB   18/27 KB   19/27 KB   21/27 KB   22/27 KB   23/27 KB   25/27 KB   26/27 KB   27/27 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 KB at 88.2 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Calculator ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/calculator/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ Calculator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Calculator ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/calculator/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ Calculator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Calculator ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/calculator/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ Calculator ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ Calculator ---
+[INFO] Installing /var/lib/jenkins/workspace/calculator/target/Calculator-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/houari/Calculator/1.0-SNAPSHOT/Calculator-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/calculator/pom.xml to /var/lib/jenkins/.m2/repository/com/houari/Calculator/1.0-SNAPSHOT/Calculator-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ Calculator ---
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
+2/6 KB     3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (6 KB at 18.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
+2/10 KB   3/10 KB   5/10 KB   6/10 KB   7/10 KB   9/10 KB   10/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (10 KB at 34.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+2/245 KB   3/245 KB   5/245 KB   6/245 KB   7/245 KB   9/245 KB   10/245 KB   11/245 KB   13/245 KB   14/245 KB   15/245 KB   17/245 KB   18/245 KB   19/245 KB   21/245 KB   22/245 KB   23/245 KB   25/245 KB   26/245 KB   27/245 KB   29/245 KB   30/245 KB   31/245 KB   33/245 KB   34/245 KB   35/245 KB   37/245 KB   38/245 KB   39/245 KB   41/245 KB   42/245 KB   43/245 KB   45/245 KB   46/245 KB   47/245 KB   49/245 KB   50/245 KB   51/245 KB   53/245 KB   54/245 KB   55/245 KB   57/245 KB   58/245 KB   59/245 KB   61/245 KB   62/245 KB   63/245 KB   65/245 KB   66/245 KB   67/245 KB   69/245 KB   70/245 KB   71/245 KB   73/245 KB   74/245 KB   75/245 KB   77/245 KB   78/245 KB   79/245 KB   81/245 KB   82/245 KB   84/245 KB   85/245 KB   86/245 KB   88/245 KB   89/245 KB   90/245 KB   92/245 KB   93/245 KB   94/245 KB   96/245 KB   97/245 KB   98/245 KB   100/245 KB   101/245 KB   102/245 KB   104/245 KB   105/245 KB   106/245 KB   108/245 KB   109/245 KB   110/245 KB   112/245 KB   113/245 KB   114/245 KB   116/245 KB   117/245 KB   118/245 KB   120/245 KB   121/245 KB   122/245 KB   124/245 KB   125/245 KB   126/245 KB   128/245 KB   129/245 KB   130/245 KB   132/245 KB   133/245 KB   134/245 KB   136/245 KB   137/245 KB   138/245 KB   140/245 KB   141/245 KB   142/245 KB   144/245 KB   145/245 KB   146/245 KB   148/245 KB   149/245 KB   150/245 KB   152/245 KB   153/245 KB   154/245 KB   156/245 KB   157/245 KB   158/245 KB   160/245 KB   161/245 KB   163/245 KB   164/245 KB   165/245 KB   167/245 KB   168/245 KB   169/245 KB   171/245 KB   172/245 KB   173/245 KB   175/245 KB   176/245 KB   177/245 KB   179/245 KB   180/245 KB   181/245 KB   183/245 KB   184/245 KB   185/245 KB   187/245 KB   188/245 KB   189/245 KB   191/245 KB   192/245 KB   193/245 KB   195/245 KB   196/245 KB   197/245 KB   199/245 KB   200/245 KB   201/245 KB   203/245 KB   204/245 KB   205/245 KB   207/245 KB   208/245 KB   209/245 KB   211/245 KB   212/245 KB   213/245 KB   215/245 KB   216/245 KB   217/245 KB   219/245 KB   220/245 KB   221/245 KB   223/245 KB   224/245 KB   225/245 KB   227/245 KB   228/245 KB   229/245 KB   231/245 KB   232/245 KB   233/245 KB   235/245 KB   236/245 KB   237/245 KB   239/245 KB   240/245 KB   241/245 KB   243/245 KB   244/245 KB   245/245 KB                Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (245 KB at 433.8 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.108s
+[INFO] Finished at: Sun Jul 18 09:16:15 UTC 2021
+[INFO] Final Memory: 9M/23M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project Calculator: Deployment failed: repository element was not specified in the POM inside distributionManagement element or in -DaltDeploymentRepository=id::layout::url parameter -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

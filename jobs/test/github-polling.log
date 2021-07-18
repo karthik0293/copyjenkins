@@ -1,0 +1,13 @@
+Started on Jul 18, 2021, 3:55:17 AM
+Started by event from 140.82.115.242 ⇒ http://13.127.115.76:9090/github-webhook/ on Sun Jul 18 03:55:17 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision d99fe515207acdd0a37782624f0b1d9a799811f2 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git ls-remote -h -- https://github.com/karthik0293/C-test.git # timeout=10
+Found 1 remote heads on https://github.com/karthik0293/C-test.git
+[poll] Latest remote head revision on refs/heads/master is: 03c396399b5881b6c1462d8c7e00bc49ddcd6315
+Done. Took 0.49 sec
+Changes found

@@ -1,0 +1,23 @@
+Started by user [8mha:////4BiUV0vIyqSPglHjXXkUzf2sYznWgw75KSgbu7XeYKOIAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL97MSikozMbACIpkGuwgAAAA==[0mkarthik
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/maven build
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/maven build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthik0293/jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/karthik0293/jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/karthik0293/jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4d47c7d9bd4ca5ea765d78c76020dd71cf133e8b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4d47c7d9bd4ca5ea765d78c76020dd71cf133e8b # timeout=10
+Commit message: "Merge pull request #1 from narendra2244/patch-1"
+ > git rev-list --no-walk 4d47c7d9bd4ca5ea765d78c76020dd71cf133e8b # timeout=10
+[maven build] $ /bin/sh -xe /tmp/jenkins5312304920945329698.sh
++ cd /var/lib/jenkins/workspace/maven build
+/tmp/jenkins5312304920945329698.sh: line 2: cd: /var/lib/jenkins/workspace/maven: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

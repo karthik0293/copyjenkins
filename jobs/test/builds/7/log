@@ -1,0 +1,24 @@
+Started by GitHub push by karthik0293
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/karthik0293/C-test.git # timeout=10
+Fetching upstream changes from https://github.com/karthik0293/C-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/karthik0293/C-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 03c396399b5881b6c1462d8c7e00bc49ddcd6315 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 03c396399b5881b6c1462d8c7e00bc49ddcd6315 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk d99fe515207acdd0a37782624f0b1d9a799811f2 # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins14980146036294914100.sh
++ cd /var/lib/jenkins/workspace/test
++ make
+gcc -c big3.c
+gcc -o karthik.exe main.o big3.o fact.o rev.o
+Finished: SUCCESS
